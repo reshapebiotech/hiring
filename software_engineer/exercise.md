@@ -11,6 +11,7 @@ Thank you for your time.
 You are to build a small python API service that can transform images in various ways. We have chosen this task, as images are central to our current imaging-machine; RIS. If you prefer to not use python, please contact us and we can talk about it.
 
 You should support `jpeg` and `png`. Images should be either supplied as binaries or urls that the service will download and use.
+Example images are in `images` subdirectory. Feel free to add your images that you find relevant and useful.
 
 Endpoints:
 - Center crop: Given width, height and an image. Crop it from the center with width and height
