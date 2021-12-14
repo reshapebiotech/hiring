@@ -8,8 +8,7 @@ Thank you for your time.
 
 # Exercise
 
-You are to build a small API service that can transform images in various ways. We have chosen this task, as images are central to our current imaging-machine; RIS. 
-
+You are to build a small python API service that can transform images in various ways. We have chosen this task, as images are central to our current imaging-machine; RIS. If you prefer to not use python, please contact us and we can talk about it.
 
 You should support `jpeg` and `png`. Images should be either supplied as binaries or urls that the service will download and use.
 
@@ -30,5 +29,7 @@ These are the points we will evaluate your code based on:
 
 - Runnable on our machines (mac/linux x86) 
 - Code readability
-- If the requirements were fulfilled
+- Exercise objectives
 - Build reproducibility - as much as possible, make your build reproducible
+
+And please note, if you are able to motivate your solution when we discuss it afterwards, we are happy.
