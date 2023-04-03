@@ -18,7 +18,7 @@ Endpoints:
 - Image difference: Given two images, output some score that measures the difference between two images. No right or wrong here, please just write some motivation your specific solution.
 - Image hash: Given an image, output a hash that can be used to uniquely identify the image
 
-All endpoints should be properly validated and provide relevant status codes. We will deeply appreciate if you are able to provide your solution in a containerized format.
+All endpoints should be properly validated and provide relevant status codes.
 
 
 # Solution
