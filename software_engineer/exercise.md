@@ -1,36 +1,36 @@
-# Motivation
+# Introduction
 
+We aim to evaluate your programming skills in a comfortable setting by discussing a piece of code you've written. This approach ensures a stress-free dialogue about your solution, allowing us to better understand your engineering capabilities.
 
-We would like to base our evaluation of your skills based on an some code written by you. Our intent is to have an evaluation session with you, where we talk about the solution, so we can have a relaxed discussion. The idea is to avoid stressing anyone out but still allow us room to identify your engineering skills.
+Thank you for participating in this process.
 
-Thank you for your time.
+# Task Description
 
+Your task is to develop a small Python API service that manipulates images in various ways, reflecting the central role of image processing in our RIS imaging machine. If Python is not your preferred language, please let us know so we can accommodate your preferences.
 
-# Exercise
+The API should support `jpeg` and `png` formats. Images can be either included directly in the request as binary data or provided via URLs for the service to download.
 
-You are to build a small python API service that can transform images in various ways. We have chosen this task, as images are central to our current imaging-machine; RIS. If you prefer to not use python, please contact us and we can talk about it.
+There are some example images are in `images` subdirectory. Feel free to use these or any other you prefer.
 
-You should support `jpeg` and `png`. Images should be either supplied as binaries as part of the request or urls that the service will download and use.
-Example images are in `images` subdirectory. Feel free to add your images that you find relevant and useful.
+### Endpoints
 
-Endpoints:
-- Center crop: Given width, height and an image. Crop it from the center with width and height
-- Image difference: Given two images, output some score that measures the difference between two images. No right or wrong here, please just write some motivation your specific solution.
-- Image hash: Given an image, output a hash that can be used to uniquely identify the image
+- **Center Crop**: Crop an image from the center using specified width and height.
+- **Image Difference**: Compute and return a score representing the difference between two images. Explain the rationale behind your chosen method.
+- **Image Hash**: Generate and return a hash that can uniquely identify an image. 
 
-All endpoints should be properly validated and provide relevant status codes.
+All endpoints must perform appropriate validation and return relevant HTTP status codes.
 
+# Submission Guidelines
 
-# Solution
-In your solution, please include the code, any information we may need to run it as well as any assumptions you have made that we should be aware of.
+Please submit your solution including the source code, instructions necessary to run it, and any assumptions you've made during development.
 
-## Goals and scoring
+## Evaluation Criteria
 
-These are the points we will evaluate your code based on:
+We will assess your submission based on the following:
 
-- Runnable on our machines (mac/linux x86) 
-- Code readability
-- Exercise objectives
-- Build reproducibility - as much as possible, make your build reproducible
+- Compatibility with Mac/Linux
+- Code clarity and structure.
+- Fulfillment of the task objectives.
+- Build reproducibility.
 
-And please note, if you are able to motivate your solution when we discuss it afterwards, we are happy.
+We look forward to discussing your solution and understanding your approach.
