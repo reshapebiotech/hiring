@@ -10,7 +10,7 @@ We're interested in finding capable engineers with lots of relevant and perhaps 
 - Track record of solving interesting problems and providing meaningful value at previous employers
 - Product-person. Very motivated by building great products
 - Clean and concise CV.
-  - Grammer, spelling mistakes and so on provides a full picture and will be part of the evaluation
+  - ~~Grammer~~ grammar, spelling mistakes and so on provides a full picture and will be part of the evaluation
 
 
 ## Initial interview
