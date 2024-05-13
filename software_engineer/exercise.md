@@ -8,7 +8,7 @@ Thank you for participating in this process.
 
 Your task is to develop a small Python API service that manipulates images in various ways, reflecting the central role of image processing in our RIS imaging machine. If Python is not your preferred language, please let us know so we can accommodate your preferences.
 
-The API should support `jpeg` and `png` formats. Images can be either included directly in the request as binary data or provided via URLs for the service to download.
+The API should support `jpeg` and `png` formats. All endpoints must support having the image included in the request as binary data and provided via URLs for the service to download (but not both at the same time).
 
 There are some example images are in `images` subdirectory. Feel free to use these or any other you prefer.
 
