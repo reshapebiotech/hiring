@@ -16,7 +16,7 @@ There are some example images are in `images` subdirectory. Feel free to use the
 
 - **Center Crop**: Crop an image from the center using specified width and height.
 - **Image Difference**: Compute and return a score representing the difference between two images. Explain the rationale behind your chosen method.
-- **Image Hash**: Generate and return a hash that can uniquely identify an image. 
+- **Image Hash**: Generate and return a hash that can uniquely identify an image.
 
 All endpoints must perform appropriate validation and return relevant HTTP status codes.
 
@@ -32,5 +32,6 @@ We will assess your submission based on the following:
 - Code clarity and structure.
 - Fulfillment of the task objectives.
 - Build reproducibility.
+- Design choices and implementation decisions.
 
-We look forward to discussing your solution and understanding your approach.
+We look forward to discussing your solution and understanding your approach!
