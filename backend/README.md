@@ -6,17 +6,25 @@ Thank you for participating in this process.
 
 # Task Description
 
-Your task is to develop a small Python API service that manipulates images in various ways, reflecting the central role of image processing in our RIS imaging machine. If Python is not your preferred language, please let us know so we can accommodate your preferences.
+Develop a small API service for image manipulation. Image processing is central to our technology stack, so it serves as a great case for normal feature development.
 
-The API should support `jpeg` and `png` formats. All endpoints must support having the image included in the request as binary data and provided via URLs for the service to download (but not both at the same time).
-
-There are some example images are in `images` subdirectory. Feel free to use these or any other you prefer.
+**Requirements:**
+- Support JPEG and PNG formats
+- Accept images as either binary data in request or via URL (not both simultaneously)
+- Example images are available in the `images` directory
+- Preferred languages: Python or TypeScript - Please let us know if you would like to use something else.
 
 ### Endpoints
 
-- **Center Crop**: Crop an image from the center using specified width and height.
-- **Image Difference**: Compute and return a score representing the difference between two images. Explain the rationale behind your chosen method.
-- **Image Hash**: Generate and return a hash that can uniquely identify an image.
+1. **Center Crop**
+   - Crop an image from its center with specified dimensions
+
+2. **Image Difference**
+   - Calculate and return a score representing the difference between two images
+   - Explain your chosen comparison method
+
+3. **Image Hash**
+   - Generate a unique identifier hash for a given image
 
 All endpoints must perform appropriate validation and return relevant HTTP status codes.
 
