@@ -6,24 +6,38 @@ Thank you for participating in this process.
 
 # Task Description
 
-Your task is to develop a small web app that facilitates viewing of media (images or videos) in various ways, reflecting the central role of images in our product line.
+Your task is to develop a small web app that facilitates viewing of media images in various ways, reflecting the central role of images in our product line.
 
 ## Features
 
-Your app should be a video player with normal playback functionality as well as frame-by-frame skipping. Additionally, it should have the following features:
+Your app should be a image viewer with it should have the following features:
 
-1. **Video Viewer**
-   - Implement a video viewer with a fullscreen mode.
-   - Allow users to navigate through a collection of videos and switch between their top/bottom light variants.
+1. **Select images**
+   - Implement a library selector that allows users to select images from a library
+   - Each image library item includes two images that are variants of the same object that can be inspected together
+   - In the default view, one image is displayed at a time with a selector to switch between the image variants
 
-2. **Split-View**
+2. **Split View**
    - Develop a resizable split view for comparing top/bottom light videos
    - Implement a draggable divider to adjust view proportions
 
-3. **Annotations**
-   - Allow users to add markers of interest that appear on videos
-   - Make sure that these persistent annotations stay positioned correctly during playback
-   - Clicking them again removes them
+3. **Blending view**
+   - Develop a way to blend two images together
+   - Decide on method for doing the blending. Explain your choice.
+   - If you need extra input elements to control the blending, implement them.
+
+4. **Choose your own adventure view**
+   - Develop a novel way to view the image sets together
+   - Dont think too hard about it. Anything goes here
+
+Make sure that your app is:
+
+- Responsive - scales to fit different screen sizes. Mobile-friendly is not in scope though
+- Fast and efficient
+- Intuitive and easy to use
+
+
+The project comes with a figma file that you can use to design your UI. You can find it in the `frontend/figma` directory. We would recommend using headless UI components for the UI, e.g. https://bits-ui.com/
 
 # Submission Guidelines
 
