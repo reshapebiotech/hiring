@@ -33,7 +33,7 @@ There are two ways of doing this part of the screening:
 1) Candidates sends a project (with code) and we spend time analyzing and finding meaningful segments to talk about
 2) We send the candidate a small exercise we have constructed (see \[backend|frontend\]/README.md)
 
-Regardles off which is picked, we meet up and talk a bit more in details about the exercise, ask relevant questions and give our best evaluation of the candidates answers
+Regardless of which one is picked, we meet up and talk a bit more in details about the exercise, ask relevant questions and give our best evaluation of the candidates answers
 
 
 The goal us to understand the candidate's technical capabilities and still make it a comfortable interview!
